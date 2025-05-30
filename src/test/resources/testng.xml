@@ -1,0 +1,7 @@
+<suite name="TestSuite">
+    <test name="TestRunner">
+        <classes>
+            <class name="runner.TestRunner"/>
+        </classes>
+    </test>
+</suite>

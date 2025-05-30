@@ -1,0 +1,47 @@
+# pdf-report-config.yml
+
+# General report settings
+pdf:
+  title: "Cucumber PDF Report"
+  author: "Ashwini"
+  reportFileName: "cucumber-report.pdf"  # The name of the generated PDF file
+  reportDirectory: "target"              # The directory where the PDF will be saved
+
+# Document information
+document:
+  headerText: "Cucumber PDF Test Report"
+  footerText: "Generated on ${date}"
+  footerPageNumber: true                 # Show page numbers in footer
+
+# Styling and appearance
+style:
+  font:
+    family: "Helvetica"                  # Font family (e.g., Helvetica, Arial, Times)
+    size: 12                             # Default font size
+    color: "#000000"                     # Font color in hex code
+
+# Display options for scenarios and steps
+scenarios:
+  showStepDetails: true                  # Show step details under each scenario
+  passedStepColor: "#00FF00"             # Green color for passed steps
+  failedStepColor: "#FF0000"             # Red color for failed steps
+  skippedStepColor: "#CCCCCC"            # Grey color for skipped steps
+
+# Summary page settings
+summary:
+  includeSummaryPage: true               # Adds a summary page to the PDF
+  showTagDetails: true                   # Include tag details for each scenario
+
+# Custom logos and images
+#logo:
+ # path: "src/main/resources/logo.png"    # Path to a custom logo file
+ # alignment: "center"                    # Align the logo (center, left, right)
+
+# Timestamp and date format
+date:
+  format: "yyyy-MM-dd HH:mm:ss"          # Format for timestamps in the report
+
+# Footer and additional details
+footer:
+  includeProjectName: true
+  includeExecutionTime: true
