@@ -629,3 +629,348 @@
 2025-05-30 17:45:22 [INFO ] [chatSteps] - [user_click_on_username] Search by username
 2025-05-30 17:45:25 [INFO ] [chatSteps] - [user_enter_username] enter username
 2025-05-30 17:45:27 [INFO ] [chatSteps] - [user_click_on_continue_username_button] username continue
+2025-06-02 11:59:35 [INFO ] [LoginSteps] - [the_mobile_app_is_installed_on_the_device] Cloudcard app is installed
+2025-06-02 11:59:38 [INFO ] [gmailSignUpSteps] - [the_user_launches_the_application] Cloudcard app is installed
+2025-06-02 12:00:21 [INFO ] [LoginSteps] - [the_mobile_app_is_installed_on_the_device] Cloudcard app is installed
+2025-06-02 12:00:24 [INFO ] [gmailSignUpSteps] - [the_user_launches_the_application] Cloudcard app is installed
+2025-06-02 12:02:57 [INFO ] [LoginSteps] - [the_mobile_app_is_installed_on_the_device] Cloudcard app is installed
+2025-06-02 12:03:00 [INFO ] [gmailSignUpSteps] - [the_user_launches_the_application] Cloudcard app is installed
+2025-06-02 12:05:43 [INFO ] [LoginSteps] - [the_mobile_app_is_installed_on_the_device] Cloudcard app is installed
+2025-06-02 12:05:46 [INFO ] [gmailSignUpSteps] - [the_user_launches_the_application] Cloudcard app is installed
+2025-06-02 12:10:38 [INFO ] [LoginSteps] - [the_mobile_app_is_installed_on_the_device] Cloudcard app is installed
+2025-06-02 12:10:41 [INFO ] [gmailSignUpSteps] - [the_user_launches_the_application] Cloudcard app is installed
+2025-06-02 12:13:05 [INFO ] [LoginSteps] - [the_mobile_app_is_installed_on_the_device] Cloudcard app is installed
+2025-06-02 12:13:08 [INFO ] [gmailSignUpSteps] - [the_user_launches_the_application] Cloudcard app is installed
+2025-06-02 12:13:12 [INFO ] [gmailSignUpSteps] - [the_user_taps_on_the_sign_up_button] Signup page
+2025-06-02 12:13:15 [INFO ] [gmailSignUpSteps] - [the_user_enters_a_valid_email_id] enters email id
+2025-06-02 12:13:24 [INFO ] [gmailSignUpSteps] - [the_user_taps_the_verify_email_button_inside_the_email] Fetching email verification link...
+2025-06-02 12:13:31 [INFO ] [gmailSignUpSteps] - [the_user_taps_the_verify_email_button_inside_the_email] GET Response Code: 200
+2025-06-02 12:13:31 [INFO ] [gmailSignUpSteps] - [the_user_taps_the_verify_email_button_inside_the_email] Response Body: {"success":1,"message":"Email verified successfully","data":[]}
+2025-06-02 12:13:31 [INFO ] [gmailSignUpSteps] - [the_user_taps_the_verify_email_button_inside_the_email] Returned to app after email verification.
+2025-06-02 12:13:40 [INFO ] [LoginSteps] - [the_user_should_land_on_the_home_page_of_the_app] Home page
+2025-06-02 12:13:41 [INFO ] [chatSteps] - [user_click_on_chat_module] Chat module opened
+2025-06-02 12:13:42 [INFO ] [chatSteps] - [user_click_on_create_chat_icon] create chat icon
+2025-06-02 12:13:43 [INFO ] [chatSteps] - [user_click_on_username] Search by username
+2025-06-02 12:13:47 [INFO ] [chatSteps] - [user_enter_username] enter username
+2025-06-02 12:13:49 [INFO ] [chatSteps] - [user_click_on_continue_username_button] username continue
+2025-06-02 12:26:36 [INFO ] [LoginSteps] - [the_mobile_app_is_installed_on_the_device] Cloudcard app is installed
+2025-06-02 12:26:40 [INFO ] [gmailSignUpSteps] - [the_user_launches_the_application] Cloudcard app is installed
+2025-06-02 12:26:53 [INFO ] [LoginSteps] - [the_mobile_app_is_installed_on_the_device] Cloudcard app is installed
+2025-06-02 12:26:56 [INFO ] [gmailSignUpSteps] - [the_user_launches_the_application] Cloudcard app is installed
+2025-06-02 12:38:48 [INFO ] [LoginSteps] - [the_mobile_app_is_installed_on_the_device] Cloudcard app is installed
+2025-06-02 12:38:51 [INFO ] [gmailSignUpSteps] - [the_user_launches_the_application] Cloudcard app is installed
+2025-06-02 12:38:55 [INFO ] [gmailSignUpSteps] - [the_user_taps_on_the_sign_up_button] Signup page
+2025-06-02 12:38:57 [INFO ] [gmailSignUpSteps] - [the_user_enters_a_invalid_email_id] enters invalid email id
+2025-06-02 12:39:07 [INFO ] [gmailSignUpSteps] - [an_error_message_should_be_displayed] Error message
+2025-06-02 12:39:07 [ERROR] [gmailSignUpSteps] - [an_error_message_should_be_displayed] <font color='green' style='background-color:white;'>Error: Console Output does not match the expected message.
+Expected: Enter a Valid email
+Actual: </font>
+2025-06-02 12:42:43 [INFO ] [LoginSteps] - [the_mobile_app_is_installed_on_the_device] Cloudcard app is installed
+2025-06-02 12:42:46 [INFO ] [gmailSignUpSteps] - [the_user_launches_the_application] Cloudcard app is installed
+2025-06-02 12:42:51 [INFO ] [gmailSignUpSteps] - [the_user_taps_on_the_sign_up_button] Signup page
+2025-06-02 12:42:52 [INFO ] [gmailSignUpSteps] - [the_user_enters_a_invalid_email_id] enters invalid email id
+2025-06-02 12:43:03 [INFO ] [gmailSignUpSteps] - [an_error_message_should_be_displayed] Error message
+2025-06-02 12:43:04 [ERROR] [gmailSignUpSteps] - [an_error_message_should_be_displayed] <font color='green' style='background-color:white;'>Error: Console Output does not match the expected message.
+Expected: Enter a Valid email
+Actual: </font>
+2025-06-03 10:58:30 [INFO ] [LoginSteps] - [the_mobile_app_is_installed_on_the_device] Cloudcard app is installed
+2025-06-03 10:58:33 [INFO ] [LoginSteps] - [the_user_launches_the_app] Cloudcard app is Launched
+2025-06-03 10:59:15 [INFO ] [LoginSteps] - [the_mobile_app_is_installed_on_the_device] Cloudcard app is installed
+2025-06-03 10:59:18 [INFO ] [LoginSteps] - [the_user_launches_the_app] Cloudcard app is Launched
+2025-06-03 10:59:23 [INFO ] [LoginSteps] - [the_user_completes_the_onboarding_steps] Skip button
+2025-06-03 10:59:23 [INFO ] [LoginSteps] - [the_user_selects_the_photo_app_and_chooses_the_qr_code_image] QR selected
+2025-06-03 10:59:23 [INFO ] [LoginSteps] - [the_user_should_be_navigated_to_the_login_page] login page
+2025-06-03 10:59:26 [INFO ] [LoginSteps] - [the_user_enters_the_security_pin] Security PIN
+2025-06-03 11:03:09 [INFO ] [LoginSteps] - [the_mobile_app_is_installed_on_the_device] Cloudcard app is installed
+2025-06-03 11:03:12 [INFO ] [LoginSteps] - [the_user_launches_the_app] Cloudcard app is Launched
+2025-06-03 11:03:13 [INFO ] [LoginSteps] - [the_user_completes_the_onboarding_steps] Skip button
+2025-06-03 11:03:13 [INFO ] [LoginSteps] - [the_user_selects_the_photo_app_and_chooses_the_qr_code_image] QR selected
+2025-06-03 11:03:13 [INFO ] [LoginSteps] - [the_user_should_be_navigated_to_the_login_page] login page
+2025-06-03 11:03:16 [INFO ] [LoginSteps] - [the_user_enters_the_security_pin] Security PIN
+2025-06-03 11:03:24 [INFO ] [LoginSteps] - [the_user_should_land_on_the_home_page_of_the_app] Home page
+2025-06-03 11:03:24 [INFO ] [filesSteps] - [the_user_taps_on_the_files_module] files module
+2025-06-03 11:12:11 [INFO ] [LoginSteps] - [the_mobile_app_is_installed_on_the_device] Cloudcard app is installed
+2025-06-03 11:12:14 [INFO ] [LoginSteps] - [the_user_launches_the_app] Cloudcard app is Launched
+2025-06-03 11:12:44 [INFO ] [LoginSteps] - [the_mobile_app_is_installed_on_the_device] Cloudcard app is installed
+2025-06-03 11:12:47 [INFO ] [LoginSteps] - [the_user_launches_the_app] Cloudcard app is Launched
+2025-06-03 11:12:48 [INFO ] [LoginSteps] - [the_user_completes_the_onboarding_steps] Skip button
+2025-06-03 11:12:48 [INFO ] [LoginSteps] - [the_user_selects_the_photo_app_and_chooses_the_qr_code_image] QR selected
+2025-06-03 11:12:48 [INFO ] [LoginSteps] - [the_user_should_be_navigated_to_the_login_page] login page
+2025-06-03 11:12:51 [INFO ] [LoginSteps] - [the_user_enters_the_security_pin] Security PIN
+2025-06-03 11:13:02 [INFO ] [LoginSteps] - [the_user_should_land_on_the_home_page_of_the_app] Home page
+2025-06-03 11:13:02 [INFO ] [filesSteps] - [the_user_taps_on_the_files_module] files module
+2025-06-03 11:42:52 [INFO ] [Util] - [performLogin] Home page
+2025-06-03 11:42:52 [INFO ] [LoginSteps] - [the_mobile_app_is_installed_on_the_device] Cloudcard app is installed
+2025-06-03 11:42:55 [INFO ] [filesSteps] - [the_user_taps_on_the_files_module] files module
+2025-06-03 11:43:06 [INFO ] [filesSteps] - [the_file_should_be_uploaded_successfully_and_visible_in_the_file_list] File successfully uploaded
+2025-06-03 11:47:53 [INFO ] [Util] - [performLogin] Home page
+2025-06-03 11:47:54 [INFO ] [LoginSteps] - [the_mobile_app_is_installed_on_the_device] Cloudcard app is installed
+2025-06-03 11:47:57 [INFO ] [filesSteps] - [the_user_taps_on_the_files_module] files module
+2025-06-03 11:48:06 [INFO ] [filesSteps] - [the_file_should_be_uploaded_successfully_and_visible_in_the_file_list] File successfully uploaded
+2025-06-03 11:50:23 [INFO ] [Util] - [performLogin] Home page
+2025-06-03 11:50:23 [INFO ] [LoginSteps] - [the_mobile_app_is_installed_on_the_device] Cloudcard app is installed
+2025-06-03 11:50:26 [INFO ] [filesSteps] - [the_user_taps_on_the_files_module] files module
+2025-06-03 11:50:35 [INFO ] [filesSteps] - [the_file_should_be_uploaded_successfully_and_visible_in_the_file_list] File successfully uploaded
+2025-06-03 12:18:43 [INFO ] [Util] - [performLogin] Home page
+2025-06-03 12:18:43 [INFO ] [LoginSteps] - [the_mobile_app_is_installed_on_the_device] Cloudcard app is installed
+2025-06-03 12:18:46 [INFO ] [filesSteps] - [the_user_taps_on_the_files_module] files module
+2025-06-03 12:18:55 [INFO ] [filesSteps] - [user_able_to_see_notification_of_file_uploaded] Notification
+2025-06-03 12:18:55 [INFO ] [filesSteps] - [the_file_should_be_uploaded_successfully_and_visible_in_the_file_list] File successfully uploaded
+2025-06-03 12:27:41 [INFO ] [Util] - [performLogin] Home page
+2025-06-03 12:27:42 [INFO ] [LoginSteps] - [the_mobile_app_is_installed_on_the_device] Cloudcard app is installed
+2025-06-03 12:27:45 [INFO ] [filesSteps] - [the_user_taps_on_the_files_module] files module
+2025-06-03 12:27:54 [INFO ] [filesSteps] - [user_able_to_see_notification_of_file_uploaded] Notification
+2025-06-03 12:27:54 [INFO ] [filesSteps] - [the_file_should_be_uploaded_successfully_and_visible_in_the_file_list] File successfully uploaded
+2025-06-03 12:32:13 [INFO ] [Util] - [performLogin] Home page
+2025-06-03 12:32:13 [INFO ] [LoginSteps] - [the_mobile_app_is_installed_on_the_device] Cloudcard app is installed
+2025-06-03 12:32:16 [INFO ] [filesSteps] - [the_user_taps_on_the_files_module] files module
+2025-06-03 12:32:25 [INFO ] [filesSteps] - [user_able_to_see_notification_of_file_uploaded] Notification
+2025-06-03 12:32:25 [INFO ] [filesSteps] - [the_file_should_be_uploaded_successfully_and_visible_in_the_file_list] File successfully uploaded
+2025-06-03 12:39:05 [INFO ] [Util] - [performLogin] Home page
+2025-06-03 12:39:05 [INFO ] [LoginSteps] - [the_mobile_app_is_installed_on_the_device] Cloudcard app is installed
+2025-06-03 12:39:08 [INFO ] [filesSteps] - [the_user_taps_on_the_files_module] files module
+2025-06-03 12:39:17 [INFO ] [filesSteps] - [user_able_to_see_notification_of_file_uploaded] Notification
+2025-06-03 12:40:04 [INFO ] [filesSteps] - [the_file_should_be_uploaded_successfully_and_visible_in_the_file_list] File successfully uploaded
+2025-06-03 12:42:06 [INFO ] [Util] - [performLogin] Home page
+2025-06-03 12:42:06 [INFO ] [LoginSteps] - [the_mobile_app_is_installed_on_the_device] Cloudcard app is installed
+2025-06-03 12:42:09 [INFO ] [filesSteps] - [the_user_taps_on_the_files_module] files module
+2025-06-03 12:42:18 [INFO ] [filesSteps] - [user_able_to_see_notification_of_file_uploaded] Notification
+2025-06-03 12:43:44 [INFO ] [filesSteps] - [the_file_should_be_uploaded_successfully_and_visible_in_the_file_list] File successfully uploaded
+2025-06-03 12:51:07 [INFO ] [Util] - [performLogin] Home page
+2025-06-03 12:51:07 [INFO ] [LoginSteps] - [the_mobile_app_is_installed_on_the_device] Cloudcard app is installed
+2025-06-03 12:51:10 [INFO ] [filesSteps] - [the_user_taps_on_the_files_module] files module
+2025-06-03 12:51:18 [INFO ] [filesSteps] - [user_able_to_see_notification_of_file_uploaded] Notification
+2025-06-03 12:51:30 [INFO ] [filesSteps] - [the_file_should_be_uploaded_successfully_and_visible_in_the_file_list] File successfully uploaded
+2025-06-03 12:56:17 [INFO ] [Util] - [performLogin] Home page
+2025-06-03 12:56:17 [INFO ] [LoginSteps] - [the_mobile_app_is_installed_on_the_device] Cloudcard app is installed
+2025-06-03 12:56:20 [INFO ] [filesSteps] - [the_user_taps_on_the_files_module] files module
+2025-06-03 12:56:29 [INFO ] [filesSteps] - [user_able_to_see_notification_of_file_uploaded] Notification
+2025-06-03 12:56:32 [INFO ] [filesSteps] - [the_file_should_be_uploaded_successfully_and_visible_in_the_file_list] File successfully uploaded
+2025-06-03 13:03:09 [INFO ] [Util] - [performLogin] Home page
+2025-06-03 13:03:10 [INFO ] [LoginSteps] - [the_mobile_app_is_installed_on_the_device] Cloudcard app is installed
+2025-06-03 13:03:13 [INFO ] [filesSteps] - [the_user_taps_on_the_files_module] files module
+2025-06-03 13:03:21 [INFO ] [filesSteps] - [user_able_to_see_notification_of_file_uploaded] Notification
+2025-06-03 13:03:35 [INFO ] [filesSteps] - [the_file_should_be_uploaded_successfully_and_visible_in_the_file_list] File successfully uploaded
+2025-06-03 14:30:31 [INFO ] [Util] - [performLogin] Home page
+2025-06-03 14:30:31 [INFO ] [LoginSteps] - [the_mobile_app_is_installed_on_the_device] Cloudcard app is installed
+2025-06-03 14:30:34 [INFO ] [filesSteps] - [the_user_taps_on_the_files_module] files module
+2025-06-03 14:30:44 [INFO ] [filesSteps] - [user_able_to_see_notification_of_file_uploaded] Notification
+2025-06-03 14:30:55 [INFO ] [filesSteps] - [the_file_should_be_uploaded_successfully_and_visible_in_the_file_list] File successfully uploaded
+2025-06-03 14:32:40 [INFO ] [Util] - [performLogin] Home page
+2025-06-03 14:32:41 [INFO ] [LoginSteps] - [the_mobile_app_is_installed_on_the_device] Cloudcard app is installed
+2025-06-03 14:32:44 [INFO ] [filesSteps] - [the_user_taps_on_the_files_module] files module
+2025-06-03 14:32:52 [INFO ] [filesSteps] - [user_able_to_see_notification_of_file_uploaded] Notification
+2025-06-03 14:32:55 [INFO ] [filesSteps] - [the_file_should_be_uploaded_successfully_and_visible_in_the_file_list] File successfully uploaded
+2025-06-03 15:21:20 [INFO ] [Util] - [performLogin] Home page
+2025-06-03 15:21:20 [INFO ] [LoginSteps] - [the_mobile_app_is_installed_on_the_device] Cloudcard app is installed
+2025-06-03 15:21:23 [INFO ] [filesSteps] - [the_user_taps_on_the_files_module] files module
+2025-06-03 15:26:25 [INFO ] [Util] - [performLogin] Home page
+2025-06-03 15:26:25 [INFO ] [LoginSteps] - [the_mobile_app_is_installed_on_the_device] Cloudcard app is installed
+2025-06-03 15:26:28 [INFO ] [filesSteps] - [the_user_taps_on_the_files_module] files module
+2025-06-03 15:30:22 [INFO ] [Util] - [performLogin] Home page
+2025-06-03 15:30:22 [INFO ] [LoginSteps] - [the_mobile_app_is_installed_on_the_device] Cloudcard app is installed
+2025-06-03 15:30:25 [INFO ] [filesSteps] - [the_user_taps_on_the_files_module] files module
+2025-06-03 15:32:59 [INFO ] [Util] - [performLogin] Click on skip button
+2025-06-03 15:33:01 [INFO ] [Util] - [performLogin] click on upload file 
+2025-06-03 15:33:23 [INFO ] [Util] - [performLogin] Home page
+2025-06-03 15:33:23 [INFO ] [LoginSteps] - [the_mobile_app_is_installed_on_the_device] Cloudcard app is installed
+2025-06-03 15:33:26 [INFO ] [filesSteps] - [the_user_taps_on_the_files_module] files module
+2025-06-03 15:36:02 [INFO ] [Util] - [performLogin] Click on skip button failed
+2025-06-03 15:36:13 [INFO ] [Util] - [performLogin] Click on skip button failed
+2025-06-03 15:36:23 [INFO ] [Util] - [performLogin] Click on skip button failed
+2025-06-03 15:36:33 [INFO ] [Util] - [performLogin] Click on skip button failed
+2025-06-03 15:37:39 [INFO ] [Util] - [performLogin] Click on skip button
+2025-06-03 15:37:41 [INFO ] [Util] - [performLogin] click on upload file 
+2025-06-03 15:37:51 [INFO ] [Util] - [performLogin] Home page
+2025-06-03 15:37:51 [INFO ] [LoginSteps] - [the_mobile_app_is_installed_on_the_device] Cloudcard app is installed
+2025-06-03 15:37:54 [INFO ] [filesSteps] - [the_user_taps_on_the_files_module] files module
+2025-06-03 15:40:27 [INFO ] [Util] - [performLogin] Click on skip button
+2025-06-03 15:40:29 [INFO ] [Util] - [performLogin] click on upload file 
+2025-06-03 15:40:42 [INFO ] [Util] - [performLogin] Home page
+2025-06-03 15:40:42 [INFO ] [LoginSteps] - [the_mobile_app_is_installed_on_the_device] Cloudcard app is installed
+2025-06-03 15:43:14 [INFO ] [Util] - [performLogin] Click on skip button
+2025-06-03 15:43:15 [INFO ] [Util] - [performLogin] click on upload file 
+2025-06-03 15:43:24 [INFO ] [Util] - [performLogin] Home page
+2025-06-03 15:43:25 [INFO ] [LoginSteps] - [the_mobile_app_is_installed_on_the_device] Cloudcard app is installed
+2025-06-03 15:43:28 [INFO ] [filesSteps] - [the_user_taps_on_the_files_module] files module
+2025-06-03 16:00:25 [INFO ] [Util] - [performLogin] Click on skip button
+2025-06-03 16:00:28 [INFO ] [Util] - [performLogin] click on upload file 
+2025-06-03 16:00:36 [INFO ] [Util] - [performLogin] Home page
+2025-06-03 16:00:36 [INFO ] [LoginSteps] - [the_mobile_app_is_installed_on_the_device] Cloudcard app is installed
+2025-06-03 16:00:39 [INFO ] [LoginSteps] - [the_mobile_app_is_installed_on_the_device] Cloudcard app is installed
+2025-06-03 16:00:42 [INFO ] [LoginSteps] - [the_mobile_app_is_installed_on_the_device] Cloudcard app is installed
+2025-06-03 16:07:02 [INFO ] [Util] - [performLogin] Click on skip button
+2025-06-03 16:07:04 [INFO ] [Util] - [performLogin] click on upload file 
+2025-06-03 16:07:12 [INFO ] [Util] - [performLogin] Home page
+2025-06-03 16:07:12 [INFO ] [LoginSteps] - [the_mobile_app_is_installed_on_the_device] Cloudcard app is installed
+2025-06-03 16:07:15 [INFO ] [homeSteps] - [the_user_taps_on_the_files_module] files module
+2025-06-03 16:07:29 [INFO ] [LoginSteps] - [the_mobile_app_is_installed_on_the_device] Cloudcard app is installed
+2025-06-03 16:07:32 [INFO ] [LoginSteps] - [the_mobile_app_is_installed_on_the_device] Cloudcard app is installed
+2025-06-03 16:07:35 [INFO ] [LoginSteps] - [the_mobile_app_is_installed_on_the_device] Cloudcard app is installed
+2025-06-03 16:08:29 [INFO ] [Util] - [performLogin] Click on skip button
+2025-06-03 16:08:32 [INFO ] [Util] - [performLogin] click on upload file 
+2025-06-03 16:08:42 [INFO ] [Util] - [performLogin] Home page
+2025-06-03 16:08:42 [INFO ] [homeSteps] - [the_user_taps_on_the_files_module] files module
+2025-06-03 16:10:13 [INFO ] [Util] - [performLogin] Click on skip button
+2025-06-03 16:10:15 [INFO ] [Util] - [performLogin] click on upload file 
+2025-06-03 16:10:27 [INFO ] [Util] - [performLogin] Home page
+2025-06-03 16:10:27 [INFO ] [homeSteps] - [the_user_taps_on_the_files_module] files module
+2025-06-03 16:10:43 [INFO ] [filesSteps] - [the_file_list_should_be_sorted_alphabetically_from_z_to_a] Z to A sorting
+2025-06-03 16:10:44 [INFO ] [filesSteps] - [the_file_list_should_be_sorted_in_descending_order_of_file_size] files sorting
+2025-06-03 16:12:13 [INFO ] [Util] - [performLogin] Click on skip button
+2025-06-03 16:12:16 [INFO ] [Util] - [performLogin] click on upload file 
+2025-06-03 16:12:22 [INFO ] [Util] - [performLogin] Home page
+2025-06-03 16:12:22 [INFO ] [homeSteps] - [the_user_taps_on_the_files_module] files module
+2025-06-03 16:12:49 [INFO ] [filesSteps] - [the_file_list_should_be_sorted_alphabetically_from_z_to_a] Z to A sorting
+2025-06-03 16:12:50 [INFO ] [filesSteps] - [the_file_list_should_be_sorted_in_descending_order_of_file_size] files sorting
+2025-06-03 16:18:49 [INFO ] [Util] - [performLogin] Click on skip button
+2025-06-03 16:18:52 [INFO ] [Util] - [performLogin] click on upload file 
+2025-06-03 16:19:27 [INFO ] [Util] - [performLogin] Click on skip button
+2025-06-03 16:19:28 [INFO ] [Util] - [performLogin] click on upload file 
+2025-06-03 16:20:13 [INFO ] [Util] - [performLogin] Click on skip button
+2025-06-03 16:21:05 [INFO ] [Util] - [performLogin] Click on skip button
+2025-06-03 16:21:08 [INFO ] [Util] - [performLogin] click on upload file 
+2025-06-03 16:21:14 [INFO ] [Util] - [performLogin] Home page
+2025-06-03 16:22:26 [INFO ] [Util] - [performLogin] Click on skip button
+2025-06-03 16:22:28 [INFO ] [Util] - [performLogin] click on upload file 
+2025-06-03 16:22:35 [INFO ] [Util] - [performLogin] Home page
+2025-06-03 16:22:35 [INFO ] [homeSteps] - [the_user_taps_on_the_files_module] files module
+2025-06-03 16:22:44 [INFO ] [filesSteps] - [user_able_to_see_notification_of_file_uploaded] Notification
+2025-06-03 16:22:56 [INFO ] [filesSteps] - [the_file_should_be_uploaded_successfully_and_visible_in_the_file_list] File successfully uploaded
+2025-06-03 16:25:28 [INFO ] [Util] - [performLogin] Click on skip button
+2025-06-03 16:25:30 [INFO ] [Util] - [performLogin] click on upload file 
+2025-06-03 16:25:37 [INFO ] [Util] - [performLogin] Home page
+2025-06-03 16:25:37 [INFO ] [homeSteps] - [the_user_taps_on_the_files_module] files module
+2025-06-03 16:25:45 [INFO ] [filesSteps] - [user_able_to_see_notification_of_file_uploaded] Notification
+2025-06-03 16:25:49 [INFO ] [filesSteps] - [the_file_should_be_uploaded_successfully_and_visible_in_the_file_list] File successfully uploaded
+2025-06-03 16:26:01 [INFO ] [filesSteps] - [the_file_list_should_be_sorted_alphabetically_from_z_to_a] Z to A sorting
+2025-06-03 16:26:03 [INFO ] [filesSteps] - [the_file_list_should_be_sorted_in_descending_order_of_file_size] files sorting
+2025-06-03 16:29:22 [INFO ] [Util] - [performLogin] Click on skip button
+2025-06-03 16:29:25 [INFO ] [Util] - [performLogin] click on upload file 
+2025-06-03 16:29:33 [INFO ] [Util] - [performLogin] Home page
+2025-06-03 16:29:33 [INFO ] [homeSteps] - [the_user_taps_on_the_files_module] files module
+2025-06-03 16:29:41 [INFO ] [filesSteps] - [user_able_to_see_notification_of_file_uploaded] Notification
+2025-06-03 16:29:53 [INFO ] [filesSteps] - [the_file_should_be_uploaded_successfully_and_visible_in_the_file_list] File successfully uploaded
+2025-06-03 16:30:37 [INFO ] [Util] - [performLogin] Click on skip button
+2025-06-03 16:30:39 [INFO ] [Util] - [performLogin] click on upload file 
+2025-06-03 16:30:59 [INFO ] [Util] - [performLogin] Click on skip button
+2025-06-03 16:31:05 [INFO ] [Util] - [performLogin] click on upload file 
+2025-06-03 16:31:38 [INFO ] [Util] - [performLogin] Click on skip button
+2025-06-03 16:31:40 [INFO ] [Util] - [performLogin] click on upload file 
+2025-06-03 16:31:55 [INFO ] [Util] - [performLogin] Home page
+2025-06-03 16:31:55 [INFO ] [homeSteps] - [the_user_taps_on_the_files_module] files module
+2025-06-03 16:32:06 [INFO ] [filesSteps] - [user_able_to_see_notification_of_file_uploaded] Notification
+2025-06-03 16:32:09 [INFO ] [filesSteps] - [the_file_should_be_uploaded_successfully_and_visible_in_the_file_list] File successfully uploaded
+2025-06-03 16:32:21 [INFO ] [filesSteps] - [the_file_list_should_be_sorted_alphabetically_from_z_to_a] Z to A sorting
+2025-06-03 16:32:23 [INFO ] [filesSteps] - [the_file_list_should_be_sorted_in_descending_order_of_file_size] files sorting
+2025-06-03 16:34:41 [INFO ] [Util] - [performLogin] Click on skip button
+2025-06-03 16:34:43 [INFO ] [Util] - [performLogin] click on upload file 
+2025-06-03 16:34:58 [INFO ] [Util] - [performLogin] Click on skip button
+2025-06-03 16:34:59 [INFO ] [Util] - [performLogin] click on upload file 
+2025-06-03 16:35:38 [INFO ] [Util] - [performLogin] Click on skip button
+2025-06-03 16:35:40 [INFO ] [Util] - [performLogin] click on upload file 
+2025-06-03 16:35:48 [INFO ] [Util] - [performLogin] Home page
+2025-06-03 16:35:49 [INFO ] [homeSteps] - [the_user_taps_on_the_files_module] files module
+2025-06-03 16:35:57 [INFO ] [filesSteps] - [user_able_to_see_notification_of_file_uploaded] Notification
+2025-06-03 16:36:10 [INFO ] [filesSteps] - [the_file_should_be_uploaded_successfully_and_visible_in_the_file_list] File successfully uploaded
+2025-06-03 16:37:56 [INFO ] [Util] - [performLogin] Click on skip button
+2025-06-03 16:37:57 [INFO ] [Util] - [performLogin] click on upload file 
+2025-06-03 16:38:09 [INFO ] [Util] - [performLogin] Home page
+2025-06-03 16:38:09 [INFO ] [homeSteps] - [the_user_taps_on_the_files_module] files module
+2025-06-03 16:38:18 [INFO ] [filesSteps] - [user_able_to_see_notification_of_file_uploaded] Notification
+2025-06-03 16:39:08 [INFO ] [Util] - [performLogin] Click on skip button
+2025-06-03 16:39:11 [INFO ] [Util] - [performLogin] click on upload file 
+2025-06-03 16:39:18 [INFO ] [Util] - [performLogin] Home page
+2025-06-03 16:39:18 [INFO ] [homeSteps] - [the_user_taps_on_the_files_module] files module
+2025-06-03 16:39:27 [INFO ] [filesSteps] - [user_able_to_see_notification_of_file_uploaded] Notification
+2025-06-03 16:39:31 [INFO ] [filesSteps] - [the_file_should_be_uploaded_successfully_and_visible_in_the_file_list] File successfully uploaded
+2025-06-03 16:39:44 [INFO ] [filesSteps] - [the_file_list_should_be_sorted_alphabetically_from_z_to_a] Z to A sorting
+2025-06-03 16:39:46 [INFO ] [filesSteps] - [the_file_list_should_be_sorted_in_descending_order_of_file_size] files sorting
+2025-06-03 16:45:47 [INFO ] [Util] - [performLogin] Click on skip button
+2025-06-03 16:45:49 [INFO ] [Util] - [performLogin] click on upload file 
+2025-06-03 16:46:03 [INFO ] [Util] - [performLogin] Click on skip button
+2025-06-03 16:47:33 [INFO ] [Util] - [performLogin] Click on skip button
+2025-06-03 16:47:35 [INFO ] [Util] - [performLogin] click on upload file 
+2025-06-03 16:47:48 [INFO ] [Util] - [performLogin] Home page
+2025-06-03 16:48:44 [INFO ] [Util] - [performLogin] Click on skip button
+2025-06-03 16:48:46 [INFO ] [Util] - [performLogin] click on upload file 
+2025-06-03 16:48:56 [INFO ] [Util] - [performLogin] Home page
+2025-06-03 16:48:56 [INFO ] [homeSteps] - [the_user_taps_on_the_files_module] files module
+2025-06-03 16:49:05 [INFO ] [filesSteps] - [user_able_to_see_notification_of_file_uploaded] Notification
+2025-06-03 16:49:46 [INFO ] [Util] - [performLogin] Click on skip button
+2025-06-03 16:49:49 [INFO ] [Util] - [performLogin] click on upload file 
+2025-06-03 16:50:03 [INFO ] [Util] - [performLogin] Home page
+2025-06-03 16:50:03 [INFO ] [homeSteps] - [the_user_taps_on_the_files_module] files module
+2025-06-03 16:50:12 [INFO ] [filesSteps] - [user_able_to_see_notification_of_file_uploaded] Notification
+2025-06-03 16:50:17 [INFO ] [filesSteps] - [the_file_should_be_uploaded_successfully_and_visible_in_the_file_list] File successfully uploaded
+2025-06-03 16:50:29 [INFO ] [filesSteps] - [the_file_list_should_be_sorted_alphabetically_from_z_to_a] Z to A sorting
+2025-06-03 16:50:31 [INFO ] [filesSteps] - [the_file_list_should_be_sorted_in_descending_order_of_file_size] files sorting
+2025-06-03 16:52:28 [INFO ] [Util] - [performLogin] Click on skip button
+2025-06-03 16:52:31 [INFO ] [Util] - [performLogin] click on upload file 
+2025-06-03 16:52:47 [INFO ] [Util] - [performLogin] Click on skip button
+2025-06-03 16:52:50 [INFO ] [Util] - [performLogin] click on upload file 
+2025-06-03 16:53:29 [INFO ] [Util] - [performLogin] Click on skip button
+2025-06-03 16:53:29 [INFO ] [Util] - [performLogin] click on upload file 
+2025-06-03 16:53:42 [INFO ] [Util] - [performLogin] Home page
+2025-06-03 16:53:42 [INFO ] [homeSteps] - [the_user_taps_on_the_files_module] files module
+2025-06-03 16:53:51 [INFO ] [filesSteps] - [user_able_to_see_notification_of_file_uploaded] Notification
+2025-06-03 16:53:55 [INFO ] [filesSteps] - [the_file_should_be_uploaded_successfully_and_visible_in_the_file_list] File successfully uploaded
+2025-06-03 16:54:00 [INFO ] [filesSteps] - [the_file_list_should_be_sorted_alphabetically_from_a_to_z] A to Z sorting
+2025-06-03 16:54:01 [INFO ] [filesSteps] - [the_file_list_should_be_sorted_alphabetically_from_z_to_a] Z to A sorting
+2025-06-03 16:54:02 [INFO ] [filesSteps] - [the_file_list_should_be_sorted_in_descending_order_of_file_size] files sorting
+2025-06-03 17:13:13 [INFO ] [Util] - [performLogin] Click on skip button
+2025-06-03 17:13:15 [INFO ] [Util] - [performLogin] click on upload file 
+2025-06-03 17:13:24 [INFO ] [Util] - [performLogin] Home page
+2025-06-03 17:13:24 [INFO ] [homeSteps] - [the_user_taps_on_the_files_module] files module
+2025-06-03 17:13:33 [INFO ] [filesSteps] - [user_able_to_see_notification_of_file_uploaded] Notification
+2025-06-03 17:13:38 [INFO ] [filesSteps] - [the_file_should_be_uploaded_successfully_and_visible_in_the_file_list] File successfully uploaded
+2025-06-03 17:13:43 [INFO ] [filesSteps] - [the_file_list_should_be_sorted_alphabetically_from_a_to_z] A to Z sorting
+2025-06-03 17:13:46 [INFO ] [filesSteps] - [the_file_list_should_be_sorted_alphabetically_from_z_to_a] Z to A sorting
+2025-06-03 17:13:47 [INFO ] [filesSteps] - [the_file_list_should_be_sorted_in_descending_order_of_file_size] files sorting
+2025-06-03 17:19:36 [INFO ] [Util] - [performLogin] Click on skip button
+2025-06-03 17:19:38 [INFO ] [Util] - [performLogin] click on upload file 
+2025-06-03 17:19:46 [INFO ] [Util] - [performLogin] Home page
+2025-06-03 17:19:46 [INFO ] [homeSteps] - [the_user_taps_on_the_files_module] files module
+2025-06-03 17:19:54 [INFO ] [filesSteps] - [user_able_to_see_notification_of_file_uploaded] Notification
+2025-06-03 17:20:00 [INFO ] [filesSteps] - [the_file_should_be_uploaded_successfully_and_visible_in_the_file_list] File successfully uploaded
+2025-06-03 17:20:07 [INFO ] [filesSteps] - [the_file_list_should_be_sorted_alphabetically_from_a_to_z] A to Z sorting validation using Streams
+2025-06-03 17:20:09 [INFO ] [filesSteps] - [the_file_list_should_be_sorted_alphabetically_from_z_to_a] Z to A sorting
+2025-06-03 17:20:10 [INFO ] [filesSteps] - [the_file_list_should_be_sorted_in_descending_order_of_file_size] files sorting
+2025-06-03 17:21:41 [INFO ] [Util] - [performLogin] Click on skip button
+2025-06-03 17:21:43 [INFO ] [Util] - [performLogin] click on upload file 
+2025-06-03 17:22:15 [INFO ] [Util] - [performLogin] Click on skip button
+2025-06-03 17:22:17 [INFO ] [Util] - [performLogin] click on upload file 
+2025-06-03 17:23:41 [INFO ] [Util] - [performLogin] Click on skip button
+2025-06-03 17:23:46 [INFO ] [Util] - [performLogin] click on upload file 
+2025-06-03 17:23:57 [INFO ] [Util] - [performLogin] Home page
+2025-06-03 17:23:57 [INFO ] [homeSteps] - [the_user_taps_on_the_files_module] files module
+2025-06-03 17:24:06 [INFO ] [filesSteps] - [user_able_to_see_notification_of_file_uploaded] Notification
+2025-06-03 17:24:10 [INFO ] [filesSteps] - [the_file_should_be_uploaded_successfully_and_visible_in_the_file_list] File successfully uploaded
+2025-06-03 17:24:16 [INFO ] [filesSteps] - [the_file_list_should_be_sorted_alphabetically_from_a_to_z] A to Z sorting validation using Streams
+2025-06-03 17:24:17 [INFO ] [filesSteps] - [the_file_list_should_be_sorted_alphabetically_from_z_to_a] Z to A sorting
+2025-06-03 17:24:20 [INFO ] [filesSteps] - [the_file_list_should_be_sorted_in_descending_order_of_file_size] files sorting
+2025-06-03 17:26:17 [INFO ] [Util] - [performLogin] Click on skip button
+2025-06-03 17:26:19 [INFO ] [Util] - [performLogin] click on upload file 
+2025-06-03 17:26:35 [INFO ] [Util] - [performLogin] Click on skip button
+2025-06-03 17:26:39 [INFO ] [Util] - [performLogin] click on upload file 
+2025-06-03 17:27:56 [INFO ] [Util] - [performLogin] Click on skip button
+2025-06-03 17:27:58 [INFO ] [Util] - [performLogin] click on upload file 
+2025-06-03 17:28:07 [INFO ] [Util] - [performLogin] Home page
+2025-06-03 17:28:07 [INFO ] [homeSteps] - [the_user_taps_on_the_files_module] files module
+2025-06-03 17:28:17 [INFO ] [filesSteps] - [user_able_to_see_notification_of_file_uploaded] Notification
+2025-06-03 17:28:21 [INFO ] [filesSteps] - [the_file_should_be_uploaded_successfully_and_visible_in_the_file_list] File successfully uploaded
+2025-06-03 17:28:26 [INFO ] [filesSteps] - [the_file_list_should_be_sorted_alphabetically_from_a_to_z] A to Z sorting
+2025-06-03 17:28:28 [INFO ] [filesSteps] - [the_file_list_should_be_sorted_alphabetically_from_z_to_a] Z to A sorting
+2025-06-03 17:28:31 [INFO ] [filesSteps] - [the_file_list_should_be_sorted_in_descending_order_of_file_size] files sorting
+2025-06-03 18:11:53 [INFO ] [Util] - [performLogin] Click on skip button
+2025-06-03 18:11:57 [INFO ] [Util] - [performLogin] click on upload file 
+2025-06-03 18:12:08 [INFO ] [Util] - [performLogin] Home page
+2025-06-03 18:12:08 [INFO ] [homeSteps] - [the_user_taps_on_the_files_module] files module
+2025-06-03 18:13:57 [INFO ] [Util] - [performLogin] Click on skip button
+2025-06-03 18:13:59 [INFO ] [Util] - [performLogin] click on upload file 
+2025-06-03 18:14:06 [INFO ] [Util] - [performLogin] Home page
+2025-06-03 18:14:06 [INFO ] [homeSteps] - [the_user_taps_on_the_files_module] files module
+2025-06-03 18:26:08 [INFO ] [Util] - [performLogin] Click on skip button
+2025-06-03 18:26:10 [INFO ] [Util] - [performLogin] click on upload file 
+2025-06-03 18:26:16 [INFO ] [Util] - [performLogin] Home page
+2025-06-03 18:26:16 [INFO ] [homeSteps] - [the_user_taps_on_the_files_module] files module

@@ -5,7 +5,7 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
 		
-		features = "E:\\Ashwini\\CloudcardApp\\cloudcardApp\\src\\test\\resources\\features",
+		features = "E:\\Ashwini\\CloudcardApp\\cloudcardApp\\src\\test\\resources\\features\\files.feature",
 		glue = { "stepDefinitions", "hooks" },
 		plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:" 
 				, "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"

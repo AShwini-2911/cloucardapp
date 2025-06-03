@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\mypco\AppData\Local\Temp\testng-eclipse-1360675697\testng-customsuite.xml</span>
+                    <span>C:\Users\mypco\AppData\Local\Temp\testng-eclipse-527473785\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -103,7 +103,7 @@
                     <div class="method-list-content failed suite-Default_suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;User chat&quot;, &quot;End-to-End App chat flow Using email&quot;)">runScenario("User chat", "End-to-End App chat flow Using email")</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="runner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Select file and perform delete operation&quot;, &quot;Upload File in Files Module&quot;)">runScenario("Select file and perform delete operation", "Upload File in Files Module")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
@@ -126,44 +126,16 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;User chat&quot;, &quot;End-to-End App chat flow Using email&quot;)">
-                  </a> <!-- runScenario("User chat", "End-to-End App chat flow Using email") -->
+                  <a name="runScenario(&quot;Select file and perform delete operation&quot;, &quot;Upload File in Files Module&quot;)">
+                  </a> <!-- runScenario("Select file and perform delete operation", "Upload File in Files Module") -->
                   <span class="method-name">runScenario</span>
-                  <span class="parameters">("User chat","End-to-End App chat flow Using email")</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Can&apos;t locate an element by this strategy: By.chained({By.xpath: //android.widget.ImageView[@content-desc=&quot;qTllpliNYp 30 May 2025&quot;]})
-	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:166)
-	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.call(InterceptorOfASingleElement.java:75)
-	at io.appium.java_client.proxy.Interceptor.intercept(Interceptor.java:78)
-	at org.openqa.selenium.remote.RemoteWebElement$ByteBuddy$Iv5KMGb6.click(Unknown Source)
-	at pages.chatPage.clickAsh(chatPage.java:65)
-	at stepDefinitions.chatSteps.user_type_the_message(chatSteps.java:57)
-	at ✽.user type the message(file:///E:/Ashwini/CloudcardApp/cloudcardApp/src/test/resources/features/chat.feature:30)
-Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@5f0d8937 (tried for 10 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:265)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:135)
-	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:160)
-	... 6 more
-Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({By.xpath: //android.widget.ImageView[@content-desc=&quot;qTllpliNYp 30 May 2025&quot;]})
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.33.0&apos;, revision: &apos;2c6aaad03a&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.11&apos;
-Driver info: driver.version: RemoteWebDriver
-	at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:74)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:139)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
-	at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:54)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:139)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
-	at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$findElement$1(AppiumElementLocator.java:160)
-	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:217)
-	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:210)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-	... 8 more
+                  <span class="parameters">("Select file and perform delete operation","Upload File in Files Module")</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:209)
+	at io.appium.java_client.TouchAction.&lt;init&gt;(TouchAction.java:61)
+	at io.appium.java_client.android.AndroidTouchAction.&lt;init&gt;(AndroidTouchAction.java:39)
+	at stepDefinitions.filesSteps.user_select_file_to_delete(filesSteps.java:114)
+	at ✽.user select file to delete(file:///E:/Ashwini/CloudcardApp/cloudcardApp/src/test/resources/features/files.feature:29)
 
 </div> <!-- stack-trace -->
                   <em>
@@ -175,7 +147,7 @@ Driver info: driver.version: RemoteWebDriver
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\mypco\AppData\Local\Temp\testng-eclipse-1360675697\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\mypco\AppData\Local\Temp\testng-eclipse-527473785\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -236,12 +208,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'runScenario')
 data.setCell(0, 2, 'runner.TestRunner')
-data.setCell(0, 3, 68835);
+data.setCell(0, 3, 27545);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 27 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -275,12 +247,12 @@ return data;
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">runScenario("User chat", "End-to-End App chat flow Using email")</span>
-                <span class="method-start">586 ms</span>
+                <span class="method-name">runScenario("Select file and perform delete operation", "Upload File in Files Module")</span>
+                <span class="method-start">575 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">69426 ms</span>
+                <span class="method-start">28124 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
