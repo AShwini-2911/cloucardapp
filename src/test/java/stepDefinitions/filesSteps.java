@@ -1,27 +1,23 @@
 package stepDefinitions;
 
 
-import java.time.Duration;
+
+
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
-import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 
 import com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter;
 
 import base.DriverManager;
-import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
-import io.appium.java_client.android.AndroidTouchAction;
-import io.appium.java_client.touch.LongPressOptions;
-import io.appium.java_client.touch.offset.ElementOption;
 import io.cucumber.java.en.*;
 import pages.filesPage;
-import pages.homePage;
 import utils.NotificationUtil;
 import utils.Util;
 
@@ -41,6 +37,7 @@ public class filesSteps extends DriverManager {
 	@When("the user taps on the Create icon")
 	public void the_user_taps_on_the_create_icon() {
 		DriverManager.initializeDriver();
+		
 	     files = new filesPage(DriverManager.getDriver());
 	    files.filesCreateicon();
 	}
@@ -109,29 +106,34 @@ public class filesSteps extends DriverManager {
 
 	@When("user select file to delete")
 	public void user_select_file_to_delete() {
-		new AndroidTouchAction(DriverManager.getDriver())
-        .longPress(LongPressOptions.longPressOptions()
-            .withElement(ElementOption.element(files.fileElement))
-            .withDuration(Duration.ofSeconds(2)))
-        .release()
-        .perform();
+		logger.info("file");
+		DriverManager.initializeDriver(); // Ensure driver is initialized
+	    files = new filesPage(DriverManager.getDriver()); // Initialize filesPage
+	    files.file();
+	    logger.info("file selected");
 	}
 
 	@When("click on delete button on files")
-	public void click_on_delete_button_on_files() {
+	public void click_on_delete_button_on_files() throws InterruptedException {
+		logger.info("delete file");
+		DriverManager.initializeDriver(); // Ensure driver is initialized
+	    files = new filesPage(DriverManager.getDriver()); 
 	    files.delete();
+	  
+	    
 	}
 
 	@Then("success message should be displayed {string}")
-	public void success_message_should_be_displayed(String expectedMessage) {
+	public void success_message_should_be_displayed(String expectedMessage) throws InterruptedException {
 		logger.info("Success message");
+	   Util.startConsoleCapture();
 	   
-	    
+	    files.confimDel();
 	    String test = files.successMsg();
     	System.out.println(test);
+        
         // Capture the console output
-        String consoleOutput = Util.stopConsoleCapture(); // Replace with your actual console capture method
-        System.out.println(consoleOutput);
+        String consoleOutput = Util.stopConsoleCapture(); 
         
         expectedMessage = expectedMessage.trim();
         consoleOutput = consoleOutput.trim();
@@ -139,13 +141,13 @@ public class filesSteps extends DriverManager {
         // Compare the captured console output with the expected message
         if (consoleOutput.equals(expectedMessage)) {
             // If they match, log success
-            ExtentCucumberAdapter.getCurrentStep().info("<font color='green' style='background-color:white;'>Console Output is as expected: " + consoleOutput + "</font>");
+            //ExtentCucumberAdapter.getCurrentStep().info("<font color='green' style='background-color:white;'>Console Output is as expected: " + consoleOutput + "</font>");
             logger.info("Success: Console Output is as expected: " + consoleOutput);
         } else {
             // If they don't match, log failure and print the expected vs actual output
-            ExtentCucumberAdapter.getCurrentStep().fail("<font color='green' style='background-color:white;'>Console Output does not match the expected message.\n" +
-                                                        "Expected: " + expectedMessage + "\n" +
-                                                        "Actual: " + consoleOutput + "</font>");
+//            ExtentCucumberAdapter.getCurrentStep().fail("<font color='green' style='background-color:white;'>Console Output does not match the expected message.\n" +
+//                                                        "Expected: " + expectedMessage + "\n" +
+//                                                        "Actual: " + consoleOutput + "</font>");
             logger.error("<font color='green' style='background-color:white;'>Error: Console Output does not match the expected message.\n" +
                       "Expected: " + expectedMessage + "\n" +
                       "Actual: " + consoleOutput + "</font>");
@@ -154,5 +156,7 @@ public class filesSteps extends DriverManager {
         }
         Util.clearConsoleOutput();
 	}
+
+	
 
 }

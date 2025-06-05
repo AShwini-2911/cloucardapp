@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-03T18:25:53 IST" name="Default suite" finished-at="2025-06-03T18:26:22 IST" duration-ms="29439">
+  <suite started-at="2025-06-05T16:37:03 IST" name="Default suite" finished-at="2025-06-05T16:37:48 IST" duration-ms="45446">
     <groups>
       <group name="cucumber">
         <method signature="CustomizeTestNGCucum.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@58fb7731]" name="runScenario" class="base.CustomizeTestNGCucum"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-06-03T18:25:53 IST" name="Default test" finished-at="2025-06-03T18:26:22 IST" duration-ms="29439">
+    <test started-at="2025-06-05T16:37:03 IST" name="Default test" finished-at="2025-06-05T16:37:48 IST" duration-ms="45446">
       <class name="runner.TestRunner">
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:runner.TestRunner@58fb7731]" started-at="2025-06-03T18:25:53 IST" name="setUpClass" finished-at="2025-06-03T18:25:53 IST" duration-ms="557" status="PASS">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:runner.TestRunner@58fb7731]" started-at="2025-06-05T16:37:03 IST" name="setUpClass" finished-at="2025-06-05T16:37:03 IST" duration-ms="567" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@58fb7731]" started-at="2025-06-03T18:25:53 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-03T18:26:21 IST" duration-ms="27545" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@58fb7731]" started-at="2025-06-05T16:37:03 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-05T16:37:47 IST" duration-ms="43604" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,21 +27,10 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.base/java.util.Objects.requireNonNull(Objects.java:209)
-at io.appium.java_client.TouchAction.<init>(TouchAction.java:61)
-at io.appium.java_client.android.AndroidTouchAction.<init>(AndroidTouchAction.java:39)
-at stepDefinitions.filesSteps.user_select_file_to_delete(filesSteps.java:114)
-at ✽.user select file to delete(file:///E:/Ashwini/CloudcardApp/cloudcardApp/src/test/resources/features/files.feature:29)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@58fb7731]" started-at="2025-06-03T18:26:21 IST" name="tearDownClass" finished-at="2025-06-03T18:26:22 IST" duration-ms="1269" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@58fb7731]" started-at="2025-06-05T16:37:47 IST" name="tearDownClass" finished-at="2025-06-05T16:37:48 IST" duration-ms="1207" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

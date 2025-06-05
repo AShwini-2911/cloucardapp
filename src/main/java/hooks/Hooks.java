@@ -1,39 +1,37 @@
 package hooks;
 
-	import io.cucumber.java.After;
-	import io.cucumber.java.Before;
-	import io.cucumber.java.Scenario;
-import utils.Util;
 
-import org.openqa.selenium.WebDriver;
-
-import com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter;
+import io.cucumber.java.After;
+import io.cucumber.java.Before;
+import io.cucumber.java.Scenario;
 
 import base.DriverManager;
+import utils.Util;
 
-	public class Hooks {
-	    private WebDriver driver;
+public class Hooks {
 
-	    
-	    @Before
-	    public void beforeScenario(Scenario scenario) {
-			DriverManager.initializeDriver();
+    private static boolean isLoggedIn = false;
 
-	        ExtentCucumberAdapter.getCurrentStep();  // Initialize step tracking
-	        System.out.println("Starting Scenario: " + scenario.getName());
-	        Util.performLogin(driver);
-	        
-	    }
+    @Before(order = 0)
+    public void beforeScenario(Scenario scenario) {
+        System.out.println("Starting Scenario: " + scenario.getName());
+        DriverManager.initializeDriver();
 
-	    @After
-	    public void afterScenario(Scenario scenario) {
-	        if (scenario.isFailed()) {
-	            ExtentCucumberAdapter.getCurrentStep().fail("Scenario Failed: " + scenario.getName());
-	        } else {
-	            ExtentCucumberAdapter.getCurrentStep().pass("Scenario Passed: " + scenario.getName());
-	        }
-	    }
-	}
+        if (!isLoggedIn) {
+            Util.performLogin(DriverManager.getDriver());
+            isLoggedIn = true;
+            System.out.println("Logged in successfully.");
+        } else {
+            System.out.println("Already logged in, skipping login step.");
+        }
+    }
 
-
-
+    @After
+    public void afterScenario(Scenario scenario) {
+        if (scenario.isFailed()) {
+            System.out.println("❌ Scenario Failed: " + scenario.getName());
+        } else {
+            System.out.println("✅ Scenario Passed: " + scenario.getName());
+        }
+    }
+}

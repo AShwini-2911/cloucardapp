@@ -18,7 +18,7 @@ public class CustomizeTestNGCucum extends DriverManager {
 	        testNGCucumberRunner = new TestNGCucumberRunner(this.getClass());
 	    }
 
-	    @SuppressWarnings("unused")
+	
 	    @Test(groups = "cucumber", description = "Runs Cucumber Scenarios", dataProvider = "scenarios")
 	    public void runScenario(PickleWrapper pickleWrapper, FeatureWrapper featureWrapper) {
 	        // the 'featureWrapper' parameter solely exists to display the feature
