@@ -1,13 +1,14 @@
 package base;
 
-import io.appium.java_client.android.AndroidDriver;
-import io.appium.java_client.android.options.UiAutomator2Options;
-
 import java.io.FileInputStream;
 import java.io.IOException;
-import java.net.URL;
 import java.time.Duration;
 import java.util.Properties;
+import java.net.URL;
+
+
+import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.android.options.UiAutomator2Options;
 
 public class DriverManager {
     private static AndroidDriver driver;
@@ -26,9 +27,7 @@ public class DriverManager {
 
     public static void initializeDriver() {
         if (driver == null) {
-        
             try {
-            	
                 UiAutomator2Options options = new UiAutomator2Options()
                         .setPlatformName("Android")
                         .setDeviceName(properties.getProperty("appiumDeviceName"))
@@ -36,11 +35,11 @@ public class DriverManager {
                         .setAppPackage(properties.getProperty("appiumAppPackage"))
                         .setAppActivity(properties.getProperty("appiumAppActivity"))
                         .setAutomationName("UiAutomator2")
-                        .setNoReset(true);
+                        .setNoReset(true)
+                        .amend("autoAcceptAlerts", true);
 
                 driver = new AndroidDriver(new URL(properties.getProperty("appiumURL")), options);
                 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-
             } catch (Exception e) {
                 e.printStackTrace();
                 throw new RuntimeException("Failed to initialize Appium driver");

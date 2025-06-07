@@ -159,10 +159,6 @@
     <version>1.5.18</version>
     <scope>compile</scope>
 </dependency>
-  	<dependency>
-  		<groupId>YatharthGeeta</groupId>
-  		<artifactId>YatharthGeeta</artifactId>
-  		<version>0.0.1-SNAPSHOT</version>
-  	</dependency>
+  	
   </dependencies>
 </project>

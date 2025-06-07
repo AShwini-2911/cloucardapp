@@ -1,8 +1,0 @@
-utils\ExtentReportUtil.class
-pages\LoginPage.class
-utils\LoggerHelper.class
-base\CustomizeTestNGCucum.class
-utils\ConfigReader.class
-base\DriverManager.class
-hooks\Hooks.class
-utils\Util.class

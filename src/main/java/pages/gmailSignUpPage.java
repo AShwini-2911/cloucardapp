@@ -29,7 +29,7 @@ public class gmailSignUpPage {
 	} 
 	
 	
-	@AndroidFindBy(xpath = "//android.widget.Button[@content-desc=\"Sign up\"]")
+	@AndroidFindBy(xpath = "//android.view.View[@content-desc=\"Sign up\"]")
 	private WebElement signup;
 	
 	public void signup() {
@@ -50,6 +50,17 @@ public class gmailSignUpPage {
 		Email.sendKeys(MailosaurUtil.getTestEmail());
 	}
 	
+	public void invalidEmail() {
+		Email.click();
+		Email.sendKeys("a@a.com");
+	}
+	
+	@AndroidFindBy(xpath = "//android.view.View[@content-desc=\"Enter a valid email\"]")
+	private WebElement invalidMsg;
+	
+	public String invalidMsg() {
+		return invalidMsg.getText();
+	}
 	@AndroidFindBy(xpath = "//android.widget.FrameLayout[@resource-id=\"android:id/content\"]/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.widget.ImageView[3]")
 	private WebElement termsCheck;
 	

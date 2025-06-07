@@ -9,13 +9,16 @@ import java.net.URL;
 
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
+import org.testng.Assert;
 
+import com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter;
 
 import base.DriverManager;
 import io.appium.java_client.android.AndroidDriver;
 import io.cucumber.java.en.*;
 import pages.gmailSignUpPage;
 import utils.MailosaurUtil;
+import utils.Util;
 
 
 
@@ -43,6 +46,7 @@ private AndroidDriver driver;
 
 	@When("the user taps on the Sign Up button")
 	public void the_user_taps_on_the_sign_up_button() {
+		logger.info("Signup page");
 	    signUp.signup();
 	}
 
@@ -209,7 +213,48 @@ public void the_user_taps_the_continue_button_on_the_verification_success_screen
 	}
 	
 
-	
+	@When("the user enters a invalid email ID")
+	public void the_user_enters_a_invalid_email_id() throws InterruptedException {
+		logger.info("enters invalid email id");
+		signUp.invalidEmail();;
+
+       Thread.sleep(3000);
+       getDriver().hideKeyboard();
+	}
+
+	@Then("an error message should be displayed {string}")
+	public void an_error_message_should_be_displayed(String expectedMessage) {
+	    logger.info("Error message");
+	   
+	    
+	    String test =  signUp.invalidMsg();
+    	System.out.println(test);
+        // Capture the console output
+        String consoleOutput = Util.stopConsoleCapture(); // Replace with your actual console capture method
+        System.out.println(consoleOutput);
+        
+        expectedMessage = expectedMessage.trim();
+        consoleOutput = consoleOutput.trim();
+
+        // Compare the captured console output with the expected message
+        if (consoleOutput.equals(expectedMessage)) {
+            // If they match, log success
+            ExtentCucumberAdapter.getCurrentStep().info("<font color='green' style='background-color:white;'>Console Output is as expected: " + consoleOutput + "</font>");
+            logger.info("Success: Console Output is as expected: " + consoleOutput);
+        } else {
+            // If they don't match, log failure and print the expected vs actual output
+            ExtentCucumberAdapter.getCurrentStep().fail("<font color='green' style='background-color:white;'>Console Output does not match the expected message.\n" +
+                                                        "Expected: " + expectedMessage + "\n" +
+                                                        "Actual: " + consoleOutput + "</font>");
+            logger.error("<font color='green' style='background-color:white;'>Error: Console Output does not match the expected message.\n" +
+                      "Expected: " + expectedMessage + "\n" +
+                      "Actual: " + consoleOutput + "</font>");
+            // Optionally, fail the test if the message doesn't match
+            Assert.fail("<font color='green' style='background-color:white;'>Console Output does not match the expected message. </font>");
+        }
+        Util.clearConsoleOutput();
+	}
+
 
 
 }

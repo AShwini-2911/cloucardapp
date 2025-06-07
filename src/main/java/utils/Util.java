@@ -1,10 +1,18 @@
 package utils;
 
 import java.io.ByteArrayOutputStream;
+
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.PrintStream;
 import java.util.Properties;
+
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
+import org.openqa.selenium.WebDriver;
+
+import base.DriverManager;
+import pages.LoginPage;
 
 public class Util {
 
@@ -12,6 +20,9 @@ public class Util {
     private static final ByteArrayOutputStream consoleOutput = new ByteArrayOutputStream();
     private static final PrintStream originalOut = System.out;
     private static final PrintStream captureOut = new PrintStream(consoleOutput);
+    private static LoginPage login ; 
+    private static final Logger logger = LogManager.getLogger(Util.class);
+    private static boolean isLoggedIn = false;
 
     static {
         loadProperties();
@@ -72,5 +83,26 @@ public class Util {
      */
     public static void clearConsoleOutput() {
         consoleOutput.reset();
+    }
+    
+    public static void performLogin(WebDriver driver) {
+        // Replace with your actual login flow using driver + page objects
+        System.out.println("Performing login through QR");
+        if (!isLoggedIn) {
+        DriverManager.initializeDriver();
+	     login = new LoginPage(DriverManager.getDriver());
+			login.onboardingSkip();
+ logger.info("Click on skip button");
+			//login.picPermission();
+			 login.uploadQRBtn();
+			 logger.info("click on upload file ");
+			    login.album();
+			 login.tapOnQRImage();
+			    login.securityPin();
+			    login.loginBtn();
+			    logger.info("Home page");
+			    isLoggedIn = true;
+        } 
+        
     }
 }
